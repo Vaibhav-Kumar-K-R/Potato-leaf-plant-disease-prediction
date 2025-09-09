@@ -9,7 +9,7 @@ A deep learning–powered web app for detecting diseases in potato leaves.
 This project provides an end-to-end solution for identifying potato leaf diseases using image classification.  
 It includes:
 - A **Jupyter Notebook** for training and evaluating the model
-- A **Flask app** for serving predictions
+- A **Streamlit app** for serving predictions
 - A pre-trained model (`model.h5`)
 - Example datasets and images for testing
 
@@ -17,13 +17,13 @@ It includes:
 
 ## 📂 Project Structure
 
-├── dataset2/ # Training/testing dataset
-├── image/ # Sample images for demo
-├── app.py # Flask web app for prediction
-├── model.h5 # Trained CNN model
-├── potato_disease_classification.ipynb # Training & evaluation notebook
-├── requirements.txt # Python dependencies
-└── .gitignore # Ignored files
+├── dataset2/ # Training/testing dataset <br>
+├── image/ # Sample images for demo <br>
+├── app.py # Flask web app for prediction <br>
+├── model.h5 # Trained CNN model <br>
+├── potato_disease_classification.ipynb # Training & evaluation notebook <br>
+├── requirements.txt # Python dependencies <br>
+└── .gitignore # Ignored files <br>
 
 
 ---
