@@ -42,11 +42,14 @@ It includes:
    cd Potato-leaf-plant-disease-prediction
    
 2.Install dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 
 3.Run the Streamlit app:
+```
 python app.py
+```
 
 4.Navigate to http://localhost:8501
 
@@ -82,10 +85,6 @@ Ideas for improvements:
 Add more plant diseases
 Improve the Streamlit UI
 Integrate cloud deployment (Docker, Heroku, Render, etc.)
-Enhance model accuracy with transfer learning
-
-📜 License
-This project currently has no license. Consider adding an open-source license (e.g., MIT, Apache 2.0).
 
 🙏 Acknowledgements
 TensorFlow/Keras for deep learning
