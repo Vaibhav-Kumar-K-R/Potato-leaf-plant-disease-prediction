@@ -1,4 +1,4 @@
-# 🍃 Potato Leaf Plant Disease Prediction
+<img width="1245" height="679" alt="image" src="https://github.com/user-attachments/assets/aad87e87-c3b3-4d2f-9fa6-a52a04e55d8e" /># 🍃 Potato Leaf Plant Disease Prediction
 
 A deep learning–powered web app for detecting diseases in potato leaves.
 
@@ -72,20 +72,20 @@ It includes:
 
 ##Results
 
-1. <img width="815" height="877" alt="image" src="https://github.com/user-attachments/assets/cda5e6d2-768a-42a9-84ed-12a207edc08b" />
+1. <img width="815" height="800" alt="image" src="https://github.com/user-attachments/assets/cda5e6d2-768a-42a9-84ed-12a207edc08b" />
 
-2. <img width="921" height="872" alt="image" src="https://github.com/user-attachments/assets/22f03f2c-fd93-4e84-97c4-ebf3344cfe94" />
+2. <img width="815" height="800" alt="image" src="https://github.com/user-attachments/assets/22f03f2c-fd93-4e84-97c4-ebf3344cfe94" />
 
-3. <img width="1245" height="679" alt="image" src="https://github.com/user-attachments/assets/306b5400-2a94-44d8-91cd-5476b13c76d3" />
+3. <img width="815" height="800" alt="image" src="https://github.com/user-attachments/assets/306b5400-2a94-44d8-91cd-5476b13c76d3" />
 
 
 
 
 🖼️ Usage
 1.Train Model
-jupyter notebook potato_disease_classification.ipynb
+jupyter notebook potato_disease_classification.ipynb <br>
 
-2.Run Prediction
+2.Run Prediction <br>
 python app.py
 
 Upload an image and get instant predictions!
@@ -98,9 +98,7 @@ Add more plant diseases
 Improve the Streamlit UI
 Integrate cloud deployment (Docker, Heroku, Render, etc.)
 
-🙏 Acknowledgements
-TensorFlow/Keras for deep learning
-Streamlit for web deployment
+Datasets - PlantVillage for training data
 
-Datasets like PlantVillage for training data
+
 
