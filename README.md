@@ -37,33 +37,34 @@ It includes:
 ### ⚙️ Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/Vaibhav-Kumar-K-R/Potato-leaf-plant-disease-prediction.git
    cd Potato-leaf-plant-disease-prediction
+```
    
 2.Install dependencies:
-   ```bash
+```bash
    pip install -r requirements.txt
-   ```
+```
 
 3.Run the Streamlit app:
-   ```
+```bash
    python app.py
-   ```
+```
 
 4.Navigate to the browser
-   ```
+```bash
    Open the browser and navigate to http://localhost:8501
-   ```
+```
 
-🧠 How It Works:
+🧠 How It Works: <br>
 1.Model Training (potato_disease_classification.ipynb)<br>
 2.Preprocesses dataset (dataset2/) <br>
 3.Builds a CNN for classifying potato diseases <br>
 4.Trains & evaluates performance <br>
 5.Exports model as model.h5 <br>
 
-🔹 Prediction Steps (app.py)
+🔹 Prediction Steps (app.py) <br>
 1.Loads the trained model<br>
 2.Accepts uploaded images <br>
 3.Outputs disease class & confidence score <br>
