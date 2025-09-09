@@ -83,10 +83,15 @@ It includes:
 
 🖼️ Usage
 1.Train Model
-jupyter notebook potato_disease_classification.ipynb <br>
+```
+jupyter notebook potato_disease_classification.ipynb 
 
-2.Run Prediction <br>
+```
+
+2.Run Prediction 
+```
 python app.py
+```
 
 Upload an image and get instant predictions!
 
