@@ -42,39 +42,51 @@ It includes:
    cd Potato-leaf-plant-disease-prediction
    
 2.Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3.Run the Streamlit app:
-```
-python app.py
-```
+   ```
+   python app.py
+   ```
 
-4.Navigate to http://localhost:8501
-
+4.Navigate to the browser
+   ```
+   Open the browser and navigate to http://localhost:8501
+   ```
 🧠 How It Works:
 
-1.Model Training (potato_disease_classification.ipynb)
-2.Preprocesses dataset (dataset2/)
-3.Builds a CNN for classifying potato diseases
-4.Trains & evaluates performance
-5.Exports model as model.h5
+1.Model Training (potato_disease_classification.ipynb)<br>
+2.Preprocesses dataset (dataset2/) <br>
+3.Builds a CNN for classifying potato diseases <br>
+4.Trains & evaluates performance <br>
+5.Exports model as model.h5 <br>
 
-🔹 Prediction (app.py)
+🔹 Prediction Steps (app.py)
 
-1.Loads the trained model
-2.Accepts uploaded images
-3.Outputs disease class & confidence score
-4.Get AI-based suggestions based on the disease class identified that aims to cure the disease class reported.
+1.Loads the trained model<br>
+2.Accepts uploaded images <br>
+3.Outputs disease class & confidence score <br>
+4.Get AI-based suggestions based on the disease class identified that aims to cure the disease class reported. <br>
+
+##Results
+
+1. <img width="815" height="877" alt="image" src="https://github.com/user-attachments/assets/cda5e6d2-768a-42a9-84ed-12a207edc08b" />
+
+2. <img width="921" height="872" alt="image" src="https://github.com/user-attachments/assets/22f03f2c-fd93-4e84-97c4-ebf3344cfe94" />
+
+3. <img width="1245" height="679" alt="image" src="https://github.com/user-attachments/assets/306b5400-2a94-44d8-91cd-5476b13c76d3" />
+
+
+
 
 🖼️ Usage
-Train Model
+1.Train Model
 jupyter notebook potato_disease_classification.ipynb
 
-Run Prediction
+2.Run Prediction
 python app.py
-
 
 Upload an image and get instant predictions!
 
