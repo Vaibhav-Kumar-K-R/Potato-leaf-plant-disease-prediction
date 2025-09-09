@@ -55,8 +55,8 @@ It includes:
    ```
    Open the browser and navigate to http://localhost:8501
    ```
-🧠 How It Works:
 
+🧠 How It Works:
 1.Model Training (potato_disease_classification.ipynb)<br>
 2.Preprocesses dataset (dataset2/) <br>
 3.Builds a CNN for classifying potato diseases <br>
@@ -64,29 +64,27 @@ It includes:
 5.Exports model as model.h5 <br>
 
 🔹 Prediction Steps (app.py)
-
 1.Loads the trained model<br>
 2.Accepts uploaded images <br>
 3.Outputs disease class & confidence score <br>
 4.Get AI-based suggestions based on the disease class identified that aims to cure the disease class reported. <br>
 
-##Results
+### Results
 
-1. <img width="615" height="800" alt="image" src="https://github.com/user-attachments/assets/cda5e6d2-768a-42a9-84ed-12a207edc08b" />
+ <img width="615" height="800" alt="image" src="https://github.com/user-attachments/assets/cda5e6d2-768a-42a9-84ed-12a207edc08b" />
 
-2. <img width="615" height="800" alt="image" src="https://github.com/user-attachments/assets/22f03f2c-fd93-4e84-97c4-ebf3344cfe94" />
+ <img width="615" height="800" alt="image" src="https://github.com/user-attachments/assets/22f03f2c-fd93-4e84-97c4-ebf3344cfe94" />
 
-3. <img width="615" height="800" alt="image" src="https://github.com/user-attachments/assets/306b5400-2a94-44d8-91cd-5476b13c76d3" />
-
-
+ <img width="615" height="800" alt="image" src="https://github.com/user-attachments/assets/306b5400-2a94-44d8-91cd-5476b13c76d3" />
 
 
-🖼️ Usage
+🖼️ Usage <br>
 1.Train Model
 ```
 jupyter notebook potato_disease_classification.ipynb 
 
 ```
+<br>
 
 2.Run Prediction 
 ```
@@ -95,7 +93,7 @@ python app.py
 
 Upload an image and get instant predictions!
 
-🤝 Contributing
+### 🤝 Contributing
 
 Contributions are welcome!
 Ideas for improvements:
@@ -103,7 +101,8 @@ Add more plant diseases
 Improve the Streamlit UI
 Integrate cloud deployment (Docker, Heroku, Render, etc.)
 
-Datasets - PlantVillage for training data
+### Datasets <br>
+PlantVillage for training data
 
 
 
